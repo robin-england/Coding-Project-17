@@ -4,3 +4,11 @@ body {
     margin: 5px;
     padding: 5px;
 }
+
+.fancy-title{
+    color: darkgreen;
+}
+
+.normal-title{
+    color: darkblue
+}
