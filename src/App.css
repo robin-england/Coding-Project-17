@@ -6,9 +6,33 @@ body {
 }
 
 .fancy-title{
-    color: darkgreen;
+    font-family: serif;
+    text-align: center;
+    color: darkgoldenrod;
+    text-decoration: underline;
 }
 
 .normal-title{
-    color: darkblue
+    color: darkgoldenrod;
+    text-align: center;
+    font-style: italic;
+}
+
+.app {
+    width: 500px;
+    height: auto;
+    border: 3px solid darkgoldenrod;
+    background-color: cornsilk;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15%;
+}
+
+.footer{
+    text-align: center;
+}
+
+button{
+    border-radius: 12px;
+    cursor: pointer;
 }

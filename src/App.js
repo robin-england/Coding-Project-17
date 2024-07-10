@@ -8,9 +8,16 @@ import "./App.css";
 
 export default function App() {
   return (
-    <>
-      <FancyText title text="Task List" />
-      <TaskList />
-    </>
+    <div className="app">
+      <>
+        <FancyText title text="Task List" />
+        <TaskList />
+        <br /><br />
+        <section className="footer">
+          Thank you for visiting my Task List page!
+          <p>© Robin England 2024</p>
+        </section>
+      </>
+    </div>
   )
 }
